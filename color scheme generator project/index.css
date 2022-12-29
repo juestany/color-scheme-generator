@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* typography */
+
+
+/* layout */
+
+header {
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+input {
+    height: 35px;
+    border: solid 0.5px #D1D5DB;
+}
+
+select {
+    padding: 9px 15px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+option {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 8px 120px;
+}
+
+button {
+    font-size: 12px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 13px 11px;
+    background: white;
+    line-height: 13px;
+}
+
+.colors-section, 
+.hex-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hex-section > p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #2B283A
+}
+
+.colors-section > div {
+    width: 1000px;
+    height: 550px;
+}
+
+#color-1 {
+    background-color: #F55A5A
+}
+
+#color-2 {
+    background-color: #2B283A
+}
+
+#color-3 {
+    background-color: #FBF3AB
+}
+
+#color-4 {
+    background-color: #AAD1B6
+}
+
+#color-5 {
+    background-color: #A626D3
+}
